@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "apium"
+version = "0.1.0"
+description = ""
+authors = ["dnlzrgz <24715931+dnlzrgz@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+celery = "^5.3.6"
+django = "^5.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.2.1"
+djhtml = "^3.0.6"
+pre-commit = "^3.6.1"
+commitizen = "^3.14.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
